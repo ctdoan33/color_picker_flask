@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Picker</title>
+</head>
+<body style="background-color: {{color}}">
+    <form action="/color" method="post">
+        <h1>Enter your color values below:</h1>
+        <p>Red:</p>
+        <input type="text" name="red">
+        <p>Green:</p>
+        <input type="text" name="green">
+        <p>Blue:</p>
+        <input type="text" name="blue">
+        <p>*All values must be between 1 and 255</p>
+        <br>
+        <input type="submit" value="Show my color!">
+    </form>
+</body>
+</html>
