@@ -3,13 +3,22 @@ body{
 }
 div{
     display: inline-block;
-    text-align: left;
+}
+p{
+    display: table-row;
+}
+label{
+    display: table-cell;
+    padding: .5em;
+}
+input{
+    display: table-cell;
+    margin: .5em;
 }
 .red{
     color: red;
 }
 .submit{
-    position: relative;
-    left: 45px;
+    float: right;
     box-shadow: 2px 2px 1px black;
 }

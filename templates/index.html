@@ -11,18 +11,13 @@
     <form action="/color" method="post">
         <h1>Enter your color values below:</h1>
         <div>
-            <p>Red:</p>
-            <p>Green:</p>
-            <p>Blue:</p>
+            <p><label>Red:</label><input type="text" name="red"></p>
+            <p><label>Green:</label><input type="text" name="green"></p>
+            <p><label>Blue:</label><input type="text" name="blue"></p>
+            <span class="red">* All values must be between 1 and 255</span>
+            <br>
+            <input class="submit" type="submit" value="Show my color!">
         </div>
-        <div>
-            <p><input type="text" name="red"></p>
-            <p><input type="text" name="green"></p>
-            <p><input type="text" name="blue"></p>
-        </div>
-        <p class="red">* All values must be between 1 and 255</p>
-        <br>
-        <input class="submit" type="submit" value="Show my color!">
     </form>
 </body>
 </html>
